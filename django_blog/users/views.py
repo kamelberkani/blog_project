@@ -14,7 +14,7 @@ def register(request):
             return redirect('blog-home')
     else:
         form = UserRegisterForm()
-
+#commit change from pycharm
     return render(request, 'users/register.html', {'form': form})
 
 # commit change
